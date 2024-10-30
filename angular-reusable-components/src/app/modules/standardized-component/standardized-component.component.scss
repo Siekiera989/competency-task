@@ -1,0 +1,8 @@
+@import "../shared-styles/shared-styles.module.scss";
+
+.shared-component-content {
+  display: block;
+  padding: 1em;
+  background-color: var(--background-color, $primary-color);
+  color: var(--text-color, $secondary-color);
+}
