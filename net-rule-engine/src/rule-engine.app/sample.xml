@@ -1,0 +1,33 @@
+﻿<organization>
+    <contentItemRef idref="8e5dcec78c2c4e7fbab2d84b56433752" category="BaseTree"
+                    nodeType="BaseTreeRoot">
+        <contentItemRef idref="227ce7e771cc4d2e924f3e63c229c5d7" category="Unit"
+                        nodeType="BaseTreeNode">
+            <contentItemRef idref="0a1733ffac774ce6b286a6072f8b900d"
+                            category="Lesson" nodeType="BaseTreeNode">
+                <contentItemRef idref="f0045d77a6d54b56979ef3dbf01d8f79"
+                                category="Section" nodeType="BaseTreeNode">
+                    <contentItemRef idref="516b25cf77384183a3e09d3853b7177f"
+                                    category="Page" subCategory="OpeningPage" nodeType="BaseTreeNode"/>
+                    <contentItemRef idref="dfef568f511a469db3f17b36746192c6"
+                                    category="Page" subCategory="OpeningPage" nodeType="BaseTreeNode">
+                        <contentItemRef idref="bb77d816145e498b87de5d151e95d721"
+                                        category="Article" nodeType="BaseTreeNode">
+                            <contentItemRef idref="ba6a0ce53c7d46679d4602d5aff53bd6"
+                                            category="ActivitySet" nodeType="SubTreeRoot">
+                                <contentItemRef
+                                        idref="394912d0420744f48559b681569c42ef" category="Activity" nodeType="SubTreeNode"/>
+                                <contentItemRef
+                                        idref="63e78f4cd4344f46b99efb7bbe9a9d9f" category="Activity" nodeType="SubTreeNode"/>
+                                <contentItemRef
+                                        idref="97b4b2e762344e22a6e9e395190bd262" category="Activity" nodeType="SubTreeNode"/>
+                                <contentItemRef
+                                        idref="232c0ef9c8554a1b9da17641d4a19599" category="Activity" nodeType="SubTreeNode"/>
+                            </contentItemRef>
+                        </contentItemRef>
+                    </contentItemRef>
+                </contentItemRef>
+            </contentItemRef>
+        </contentItemRef>
+    </contentItemRef>
+</organization>

@@ -42,3 +42,14 @@ Build a small rules engine that relies on XML DOM traversal and custom rule defi
 Chosen Approach: **Option 1**
 
 Using XPath and LINQ to XML offers a lightweight, maintainable solution suitable for the given requirements. This approach allows validation and query operations with less complexity.
+
+# API Description
+The API provided by XmlValidator allows for:
+
+*Validation:* `ValidateDocument()` returns a list of validation errors.
+
+*Allowed Templates:* `GetAllowedTemplates(xpath)` returns a list of allowed template categories for a specified node.
+
+*Node movability:* `CanMoveNode(nodeXpath, newParentXpath)` checks if a node can be moved to a specified location.
+
+This solution can handle a range of validation rules, is easily extendable, and provides efficient XML document manipulation and validation.
