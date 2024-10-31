@@ -34,6 +34,13 @@ export class SampleComponent {
 }
 ```
 
+`sample.component.html`
+
+```html
+<h2>User Table</h2>
+<app-reusable-table [dataInput]="data()" [columnsInput]="columns()"></app-reusable-table>
+```
+
 Use the SampleComponent in AppComponent.
 
 `app.component.ts:`
