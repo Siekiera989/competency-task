@@ -20,17 +20,17 @@ import { ReusableTableComponent } from "../shared-styles/reusable-table/reusable
   styleUrls: ["./sample.component.scss"],
 })
 export class SampleComponent {
-  tableData = [
-    { name: "John Doe", age: 30, email: "john@example.com" },
-    { name: "Jane Smith", age: 25, email: "jane@example.com" },
-    { name: "Alice Johnson", age: 28, email: "alice@example.com" },
-  ];
-
-  columns = [
+  columns = signal<TableColumn[]>([
+    { header: "ID", field: "id" },
     { header: "Name", field: "name" },
     { header: "Age", field: "age" },
-    { header: "Email", field: "email" },
-  ];
+  ]);
+
+  data = signal<Array<Record<string, any>>>([
+    { id: 1, name: "John Doe", age: 30 },
+    { id: 2, name: "Jane Smith", age: 25 },
+    { id: 3, name: "Alice Johnson", age: 40 },
+  ]);
 }
 ```
 
